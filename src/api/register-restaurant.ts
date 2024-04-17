@@ -13,5 +13,5 @@ export async function registerRestaurant({
   managerName,
   phone,
 }: RegisterRestaurantBody) {
-  await api.post('/restaurants', { email, restaurantName, managerName, phone })
+  await api.post('/restaurant', { email, restaurantName, managerName, phone })
 }
